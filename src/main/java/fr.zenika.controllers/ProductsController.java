@@ -30,7 +30,9 @@ public class ProductsController {
         if (result.hasErrors()) {
             return "error";
         }
+        // mock back
         List<Product> products = getProducts();
+        // filter coté front
         products = filterByName(products, searchBean.getName());
         products = filterByType(products, searchBean.getTypes());
         model.addAttribute("products", products);

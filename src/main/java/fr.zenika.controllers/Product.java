@@ -33,7 +33,7 @@ public class Product {
     }
 
     /**
-     *
+     * sets the new price
      * @param newPrice
      */
     public void setNewPrice(double newPrice) {
@@ -49,7 +49,7 @@ public class Product {
     }
 
     /**
-     *
+     * sets the new url
      * @param url
      */
     public void setUrl(String url) {
@@ -65,7 +65,7 @@ public class Product {
     }
 
     /**
-     *
+     * sets the new sale
      * @param sale
      */
     public void setSale(int sale) {
@@ -80,6 +80,7 @@ public class Product {
     }
 
     /**
+     * sets the new name
      * @param name
      */
     public void setName(String name) {
@@ -94,6 +95,7 @@ public class Product {
     }
 
     /**
+     * sets new price
      * @param price
      */
     public void setPrice(double price) {
@@ -108,6 +110,7 @@ public class Product {
     }
 
     /**
+     * sets new description
      * @param description
      */
     public void setDescription(String description) {
@@ -123,7 +126,7 @@ public class Product {
     }
 
     /**
-     *
+     * sets new type
      * @param type
      */
     public void setType(String type) {

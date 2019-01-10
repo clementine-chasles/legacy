@@ -29,8 +29,10 @@ public class BaseController {
 
         // calling webservice
         model.addAttribute("products", getAllProducts());
+        // try catch avec log erreur + throw
         List<Product> bestSellers = getBestSellers();
         applySale(bestSellers);
+        // set des trucs qui sont pas utilisés dans la jsp
         model.addAttribute("bestSellers", bestSellers);
 
         // Spring uses InternalResourceViewResolver and return back index.jsp
